@@ -141,6 +141,7 @@ section {
 }
 table {
     margin:2rem 0;
+    max-width:100%;
 }
 td {
     border:1px solid #1113;
@@ -157,4 +158,5 @@ table img {
 a {
     color:#111a;
     text-decoration:none;
+    word-break:break-all;
 }
