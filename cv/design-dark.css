@@ -1,0 +1,53 @@
+:root {
+    --borbot:#777;
+    --bgdesc:#333;
+    --bgasc:#4d3c69;
+    --txtasc:#a977eb;
+    --txtasc2:#9b55dd;
+    --txtdesc:#eee;
+    --txtmute:#aaa;
+}
+table {
+    border-color:white;
+}
+td,th {
+    border-top:1px solid white;
+}
+#leftside {
+    background-color:var(--bgasc);
+}
+#leftside li {
+    color:var(--txtdesc);
+}
+a {
+    color:var(--txtasc);
+}
+#leftside h1 {
+    background-color:var(--bgdesc);
+    color:var(--txtdesc);
+    border-bottom:1px solid var(--borbot);
+}
+#rightside {
+    color:white;
+    background:var(--bgdesc);
+}
+#rightside h1 {
+    color:var(--txtasc);
+}
+#rightside h2 {
+    color:var(--txtasc2);
+}
+#rightside h3 {
+    color:var(--txtdesc);
+}
+li.muted {
+    color:var(--txtmute);
+}
+#hamburger {
+    background:linear-gradient(135deg,#888 ,#555);
+    color:var(--txtdesc)
+}
+.setting {
+    background:linear-gradient(135deg, #888, #555);
+    border-color:#ddda !important;
+}
