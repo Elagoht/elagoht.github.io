@@ -160,3 +160,11 @@ a {
     text-decoration:none;
     word-break:break-all;
 }
+::-webkit-scrollbar {
+    height:5px;
+    width:5px;
+    background:#ddd;
+}
+::-webkit-scrollbar-thumb {
+    background:#aaa;
+}
