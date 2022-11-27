@@ -1,28 +1,28 @@
 import Aside from "./components/Skeleton/Aside";
 import Header from "./components/Skeleton/Header";
-import Section from "./components/Skeleton/Section";
-import AboutMe from "./components/Skeleton/Section/AboutMe";
-import ContactMe from "./components/Skeleton/Section/ContactMe";
-import Projects from "./components/Skeleton/Section/Projects";
-import Resume from "./components/Skeleton/Section/Resume";
-import "./design.css"
+import AboutMe from "./pages/AboutMe";
+import ContactMe from "./pages/ContactMe";
+import Projects from "./pages/Projects";
+import Publications from "./pages/Publications";
+import Resume from "./pages/Resume";
+import "./index.css"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return <div>
-    <Header/>
-    <Aside/>
-    <Section>
-      <AboutMe/>
-    </Section>
-    <Section>
-      <Resume/>
-    </Section>
-    <Section>
-      <Projects/>
-    </Section>
-    <Section>
-      <ContactMe/>
-    </Section>
+    <BrowserRouter>
+      <Header />
+      <Aside />
+      <Routes>
+        <Route path="/">
+          <Route index element={<AboutMe />} />
+          <Route path="publications" element={<Publications />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="contact-me" element={<ContactMe />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   </div>
 }
 

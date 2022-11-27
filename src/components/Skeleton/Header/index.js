@@ -2,12 +2,25 @@ import React from 'react'
 import Titles from '../../Titles'
 
 function Header() {
+
+  const navlinks = [
+    { title: "LinkedIn", link: "https://www.linkedin.com/in/furkan-baytekin/", bg: "bg-nav-linkedin" },
+    { title: "GitHub", link: "https://github.com/Elagoht", bg: "bg-nav-github" },
+    { title: "YouTube", link: "https://www.youtube.com/@herkesicinlinux", bg: "bg-nav-youtube" },
+    { title: "AUR", link: "https://aur.archlinux.org/packages?O=0&SeB=m&K=Elagoht&outdated=&SB=p&SO=d&PP=50&submit=Go", bg: "bg-nav-aur" },
+    { title: "Lure", link: "https://github.com/Arsen6331/lure-repo/pulls?q=is:pr+is:closed+author:Elagoht", bg: "bg-nav-lure" },
+    { title: "Itch", link: "https://elagoht.itch.io/", bg: "bg-nav-itch" },
+    { title: "Kaggle", link: "https://www.kaggle.com/furkanbaytekin", bg: "bg-nav-kaggle" },
+    { title: "E-Mail", link: "mailto:furkanbaytekin@gmail.com", bg: "bg-nav-email" },
+    { title: "Telegram", link: "https://t.me/elagoht", bg: "bg-nav-telegram" },
+  ]
+
   return <header>
-    <div id="header-container" className="flex space-between align-center border-thick box padd-medium margin-center max-width">
-      <div id="profile-picture" className="border-thick circle box-small square bg-cover"></div>
-      <div className="flex column flex-1 align-center">
-        <div id="name-info" className="flex column align-center">
-          <span id="my-name">Furkan Baytekin</span>
+    <div className="max-md:flex-col flex justify-between items-center border-4 p-8 max-[480px]:p-4 transition-all max-w-screen-lg m-auto mt-6 border-zinc-700 bg-code-snippet bg-cover bg-center rounded-3xl gap-4">
+      <div className="border-4 rounded-full w-48 h-48 bg-profile-picture bg-contain shrink-0"></div>
+      <div className="flex flex-col text-center flex-1 justify-center gap-2">
+        <div className="flex flex-col items-center gap-2">
+          <span id="my-name" className="text-white text-5xl font-display">Furkan Baytekin</span>
           <Titles
             titles={[
               "Software Developer",
@@ -21,25 +34,12 @@ function Header() {
             ]}
           />
         </div>
-        <div id="profile-links" className="flex wrap just-center">
-          <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/furkan-baytekin/">
-            <div id="linked-in" className="link-icon square bg-cover margin-small"></div></a>
-          <a target="_blank" title="GitHub" href="https://github.com/Elagoht">
-            <div id="github" className="link-icon square bg-cover margin-small"></div></a>
-          <a target="_blank" title="YouTube" href="https://www.youtube.com/@herkesicinlinux">
-            <div id="youtube" className="link-icon square bg-cover margin-small"></div></a>
-          <a target="_blank" title="AUR" href="https://aur.archlinux.org/packages?O=0&SeB=m&K=Elagoht&outdated=&SB=p&SO=d&PP=50&submit=Go">
-            <div id="aur" className="link-icon square bg-cover margin-small"></div></a>
-          <a target="_blank" title="Lure" href="https://github.com/Arsen6331/lure-repo/pulls?q=is:pr+is:closed+author:Elagoht">
-            <div id="lure" className="link-icon square bg-cover margin-small"></div></a>
-          <a target="_blank" title="Itch" href="https://elagoht.itch.io/">
-            <div id="itch" className="link-icon square bg-cover margin-small"></div></a>
-          <a target="_blank" title="Kaggle" href="https://www.kaggle.com/furkanbaytekin">
-            <div id="kaggle" className="link-icon square bg-cover margin-small"></div></a>
-          <a title="E-Mail" href="mailto:furkanbaytekin@gmail.com">
-            <div id="mail" className="link-icon square bg-cover margin-small"></div></a>
-          <a target="_blank" title="Telegram" href="https://t.me/elagoht">
-            <div id="telegram" className="link-icon square bg-cover margin-small"></div></a>
+        <div id="profile-links" className="flex flex-wrap justify-center">
+          {navlinks.map((link, i) => (
+            <a target="_blank" key={i} title={link["title"]} href={link["link"]}>
+              <div className={"nav-link " + link["bg"]}></div>
+            </a>
+          ))}
         </div>
       </div>
     </div>

@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Patua+One&family=Source+Code+Pro&display=swap');
+
+@layer components {
+    .label-icon {
+        @apply bg-no-repeat bg-ico-sm pl-8 py-[2px] w-fit leading-snug text-left
+    }
+    .nav-link {
+        @apply w-6 h-6 bg-cover hover:bg-orange-300 rounded-full transition-colors m-1
+    }
+    .aside-button {
+        @apply flex-1 p-3 text-gray-300 transition-colors bg-opacity-0 hover:bg-opacity-20 hover:text-orange-300 bg-zinc-500 select-none cursor-pointer flex items-center justify-center text-center
+    }
+    .rainbow-grad {
+        background: linear-gradient(-60deg, rgba(25,108,173,.7) 0%, rgba(160,30,130,.7) 20%, rgba(63,39,150,.7) 40%, rgba(0,0,0,.7) 100%);
+    }
+    .rainbow-grad-semi-transparent {
+        background: linear-gradient(-60deg, rgba(160,30,130,.3) 0%, rgba(63,39,150,.3) 40%, rgba(0,0,0,.3) 100%);
+    }
+    .card {
+        text-shadow: 0 0 .25rem black;
+        @apply rainbow-grad-semi-transparent border-2 border-gray-500 rounded-lg p-4 flex flex-col flex-wrap gap-2 shadow-slate-100 text-left
+    }
+    .gallery-button {
+        @apply w-10 aspect-square rounded-full bg-stone-600 font-bold hover:bg-stone-500 transition-colors shrink-0
+    }
+    .error-box {
+        @apply border-2 p-4 bg-red-900 bg-opacity-50 border-red-900 rounded-xl
+    }
+    * {
+        @apply font-body
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply leading-relaxed font-title font-bold
+    }
+    p {
+        @apply mb-4 leading-relaxed
+    }
+    h1 { 
+        @apply border-b-zinc-500 text-3xl font-bold pb-2 border-b-2 
+    }
+    h2 {
+        @apply text-2xl
+    }
+    h3 {
+        @apply text-center text-xl
+    }
+    a {
+        @apply text-blue-400
+    }
+    figure iframe, figure img {
+        @apply aspect-video w-full rounded-lg bg-stone-600
+    }
+    body {
+        @apply bg-zinc-800
+    }
+}
