@@ -1,7 +1,10 @@
 import React from 'react'
+import LangColors from './LangColors'
 import Languages from './Languages'
 import License from './License'
-import useLanguages from './useLanguages'
+import Star from "../Icons/Star.js"
+import Fork from "../Icons/Fork.js"
+import Git from '../Icons/Git'
 
 function Repo({ data: repo }) {
   Languages.defaultProps = {
@@ -9,32 +12,36 @@ function Repo({ data: repo }) {
   }
 
   if (!repo.archived) {
-    return <div className="flex flex-col border-2 border-zinc-700 p-4 rounded-xl gap-3 ">
-      <div className="rainbow-grad border-b-2 border-zinc-700 p-4 -m-4 mb-0 bg-zinc-800 rounded-t-xl  overflow-hidden text-ellipsis">
-        <a target="_blank" href={repo.html_url} className={"text-pink-500 text-xl" + (repo.fork == true
-          ? " label-icon bg-icon-fork"
-          : "")}
-        >
+    return <div className="card flex-nowrap border-b-4" style={{ borderBottomColor: LangColors[repo.language] }}>
+      <div className="overflow-hidden text-ellipsis flex-shrink-0 rounded-t flex gap-2">
+        {repo.fork
+          ? <Fork />
+          : <Git />}
+        <a target="_blank" href={repo.html_url} className="text-xl text-orange-700 dark:text-orange-400 font-bold">
           {repo.name}
         </a>
       </div>
       {repo.description !== null
-        && <div>{repo.description}</div>
+        && <div className="h-full">{repo.description}</div>
       }
-      <div className="rainbow-grad-semi-transparent border-t-2 border-zinc-700 p-4 -m-4 bg-zinc-800 rounded-b-xl mt-auto flex gap-4">
-
+      <div className="ml-auto mt-auto flex gap-4 flex-shrink-0">
+        {repo.license !== null
+          && <License lic={repo.license.name} />}
         {(repo.language == null)
           ? <Languages />
           : <Languages lang={repo.language} />}
-        {repo.license !== null
-          && <License lic={repo.license.name} />}
-        <div className="flex-1"></div>
         {repo.stargazers_count !== 0
-          && <div className="label-icon bg-icon-star">{repo.stargazers_count}</div>}
+          && <div className="flex gap-2">
+            <Star />
+            {repo.stargazers_count}
+          </div>}
         {repo.forks_count > 0
-          && <div className="label-icon bg-icon-fork">{repo.forks_count}</div>}
+          && <div className="flex gap-2">
+            <Fork />
+            {repo.forks_count}
+          </div>}
       </div>
-    </div >
+    </div>
   }
 }
 

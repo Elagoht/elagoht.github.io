@@ -1,28 +1,22 @@
 import Badges from "../components/Badges";
-import Languages from "../components/Repo/Languages";
 import Section from "../components/Skeleton/Section";
+import { aboutMe, h2s, h3s, knownLanguages, languages, mainTitle } from "../translations/About";
+import { useContext } from "react"
+import { LanguageContext } from "../contexts/LanguageContext";
 
 function AboutMe() {
-
+  const { language } = useContext(LanguageContext)
 
   return <Section>
-    <h1>About Me</h1>
+    {mainTitle[language]}
 
-    <p>I study at education department and I want to integrate my coding skills
-      to education.  My aim is to create digital and modern education materials.
-      The reason why is education in schools still looks same as 100 years ago.
-      We just added smartboards. But this cannot be helpful to make students
-      smart. So I believe we, who are programmers, should lend a helping hand to
-      this situation.</p>
-    <p>I am also an open source advocate. I use Linux as my main operating
-      system. I publish educational videos about Linux and open source projects on
-      my Youtube channel named <a
-        href="https://www.youtube.com/@herkesicinlinux">Linux For Everyone</a>.</p>
+    <div className="text-justify">
+      {aboutMe[language]}
+    </div>
 
-    <h2>Digital Skill</h2>
+    {h2s[language][0]}
 
-    <h3>Programming, Scripting, Declerative, Markup Languages & Modules, Frameworks</h3>
-
+    {h3s[language][0]}
     <Badges
       data={[
         ["HTML-2012-E34F26", "html5"],
@@ -46,10 +40,8 @@ function AboutMe() {
       styles={"justify-center"}
     />
 
-    <h3>Package Programs & OSes</h3>
-
+    {h3s[language][1]}
     <div className="flex flex-wrap justify-center">
-
       <Badges
         data={[
           ["GNU_Linux-0D597F", "linux"],
@@ -68,16 +60,18 @@ function AboutMe() {
         ]}
         styles={"justify-center"}
       />
+    </div>
 
+    {h2s[language][1]}
+
+    <div className="columns-2 max-sm:columns-1">
+      <div className="flex items-center">
+        {languages[language][0]} <img className="m-1 rounded-full" alt="Turkish" src={`https://img.shields.io/badge/${knownLanguages[language][0]}-db0a16?logo=homeassistantcommunitystore&logoColor=white&style=flat-square`} />
+      </div>
+      <div className="flex items-center">
+        {languages[language][1]} <img className="m-1 rounded-full" alt="English" src={`https://img.shields.io/badge/${knownLanguages[language][1]}-11145b?logo=googleearth&logoColor=white&style=flat-square`} />
+      </div>
     </div>
-    <h1>Language Skills</h1>
-    <div className="flex items-center">
-      Mother Tongue: <img className="m-1 rounded-full" alt="Turkish" src="https://img.shields.io/badge/Turkish-db0a16?logo=homeassistantcommunitystore&logoColor=white&style=flat-square" />
-    </div>
-    <div className="flex items-center">
-      Other Languages: <img className="m-1 rounded-full" alt="English" src="https://img.shields.io/badge/English-11145b?logo=googleearth&logoColor=white&style=flat-square" />
-    </div>
-    <Languages langs={{ Python: 30, JavaScript: 69, Bash: 1, "Vim Script": 3, Java: 20, "C++": 13, C: 43, Rust: 1, "C#": 31, Lua: 32, HTML: 1, CSS: 42, R: 0, Java: -1 }} />
   </Section>
 }
 

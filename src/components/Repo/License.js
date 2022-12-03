@@ -1,4 +1,5 @@
 import React from 'react'
+import Justice from "../Icons/Justice.js"
 
 function License({ lic }) {
 
@@ -9,8 +10,9 @@ function License({ lic }) {
     "Apache License 2.0": "Apache v2"
   }
 
-  return <div>
-    {licenses[lic]}
+  return <div className="flex gap-2">
+    <Justice />
+    <div className="whitespace-nowrap">{licenses[lic]}</div>
   </div>
 }
 

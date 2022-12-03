@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   mode: 'jit',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -31,9 +32,7 @@ module.exports = {
         "icon-role": "url('/src/assets/icons/role.svg')",
         "icon-instructor": "url('/src/assets/icons/instructor.svg')",
         "icon-certificate": "url('/src/assets/icons/certificate.svg')",
-        "icon-credential": "url('/src/assets/icons/credential.svg')",
-        "icon-star": "url('/src/assets/icons/star.png')",
-        "icon-fork": "url('/src/assets/icons/fork.png')",
+        "icon-credential": "url('/src/assets/icons/credential.svg')"
       },
       fontFamily: {
         "code": ["Source Code Pro", "monospace"],

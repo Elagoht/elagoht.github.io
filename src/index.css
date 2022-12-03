@@ -11,51 +11,62 @@
     .nav-link {
         @apply w-6 h-6 bg-cover hover:bg-orange-300 rounded-full transition-colors m-1
     }
-    .aside-button {
-        @apply flex-1 p-3 text-gray-300 transition-colors bg-opacity-0 hover:bg-opacity-20 hover:text-orange-300 bg-zinc-500 select-none cursor-pointer flex items-center justify-center text-center
-    }
-    .rainbow-grad {
-        background: linear-gradient(-60deg, rgba(25,108,173,.7) 0%, rgba(160,30,130,.7) 20%, rgba(63,39,150,.7) 40%, rgba(0,0,0,.7) 100%);
-    }
-    .rainbow-grad-semi-transparent {
-        background: linear-gradient(-60deg, rgba(160,30,130,.3) 0%, rgba(63,39,150,.3) 40%, rgba(0,0,0,.3) 100%);
+    .header-button {
+        @apply flex-1 p-2 my-2 mx-1 max-sm:mx-2 max-sm:my-1 rounded-full text-zinc-400 dark:text-zinc-200 transition-colors hover:text-orange-300 hover:bg-zinc-800 select-none cursor-pointer flex items-center justify-center text-center max-sm:hover:bg-zinc-700 max-sm:text-left max-sm:block max-sm:px-5 whitespace-nowrap
+    }    
+    .active {
+        @apply bg-orange-300 text-zinc-900 hover:bg-orange-200 hover:text-zinc-900 dark:text-zinc-900
     }
     .card {
-        text-shadow: 0 0 .25rem black;
-        @apply rainbow-grad-semi-transparent border-2 border-gray-500 rounded-lg p-4 flex flex-col flex-wrap gap-2 shadow-slate-100 text-left
+        @apply border border-zinc-600 rounded-lg p-4 flex flex-col flex-wrap gap-2 shadow-slate-100 text-left to-zinc-200 from-zinc-50 bg-gradient-to-br dark:to-zinc-800 dark:from-zinc-700
+    }
+    .card .button {
+        @apply select-none text-white rounded flex gap-1 bg-zinc-800 hover:bg-zinc-700 p-2 dark:bg-zinc-50 dark:text-zinc-900
     }
     .gallery-button {
-        @apply w-10 aspect-square rounded-full bg-stone-600 font-bold hover:bg-stone-500 transition-colors shrink-0
+        @apply w-10 aspect-square rounded-full text-zinc-200 bg-zinc-500 font-bold hover:bg-zinc-500 transition-colors shrink-0
     }
     .error-box {
-        @apply border-2 p-4 bg-red-900 bg-opacity-50 border-red-900 rounded-xl
+        @apply border p-4 bg-red-800 bg-opacity-90 border-red-900 rounded
+    }
+    .error-box h4 {
+        @apply text-red-300
+    }
+    .hamburger {
+        @apply w-10 bg-white h-[3px] rounded transition-all
+    }
+    #close-menu {
+        @apply flex-1 w-full h-[100vh] bg-black bg-opacity-80
     }
     * {
-        @apply font-body
+        @apply font-body scroll-smooth transition-colors
     }
 
     h1, h2, h3, h4, h5, h6 {
-        @apply leading-relaxed font-title font-bold
+        @apply leading-7 font-title font-bold w-fit
     }
     p {
-        @apply mb-4 leading-relaxed
+        @apply leading-7
     }
     h1 { 
-        @apply border-b-zinc-500 text-3xl font-bold pb-2 border-b-2 
+        @apply border-b-zinc-500 text-3xl font-bold pb-2 border-b-2 w-full
     }
     h2 {
-        @apply text-2xl
+        @apply text-2xl border-b-2 pr-6 pb-2 border-zinc-400
     }
     h3 {
-        @apply text-center text-xl
+        @apply text-center text-xl w-full
     }
     a {
-        @apply text-blue-400
+        @apply text-pink-700 dark:text-pink-500
     }
     figure iframe, figure img {
-        @apply aspect-video w-full rounded-lg bg-stone-600
+        @apply aspect-video w-full rounded-lg bg-zinc-600
     }
     body {
-        @apply bg-zinc-800
+        @apply bg-zinc-100 dark:bg-zinc-800 dark:text-zinc-50
+    }
+    aside {
+        @apply mt-12
     }
 }

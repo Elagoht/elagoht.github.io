@@ -1,9 +1,8 @@
 # TODOs
 
-- [ ] Create Publication component
 - [X] Create Education component
-- [ ] Github Repos
-- [ ] Load boxes
-- [ ] Animations
-- [ ] Theme Context
-- [ ] Language Context
+- [X] Github Repos
+- [X] Load boxes
+- [X] Animations
+- [X] Theme Context
+- [X] Language Context
