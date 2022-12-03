@@ -17,7 +17,7 @@ function Repo({ data: repo }) {
         {repo.fork
           ? <Fork />
           : <Git />}
-        <a target="_blank" href={repo.html_url} className="text-xl text-orange-700 dark:text-orange-400 font-bold">
+        <a target="_blank" rel="noreferrer" href={repo.html_url} className="text-xl text-orange-700 dark:text-orange-400 font-bold">
           {repo.name}
         </a>
       </div>

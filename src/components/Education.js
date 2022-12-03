@@ -12,7 +12,7 @@ function Education({ data, children }) {
     </div>
     <hr className="border-zinc-500" />
     <div>
-      <img src={data.logo} className="w-1/4 mx-2 float-right" />
+      <img src={data.logo} alt={data.school[language]} className="w-1/4 mx-2 float-right" />
       <div>{children}</div>
     </div>
     <div className='clear-both'></div>
