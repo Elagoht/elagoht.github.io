@@ -98,12 +98,12 @@ function Publications() {
       },
       badges: {
         tr: [
-          "youtube/views/PIYaUPAD3ZY?logo=youtube&label=Views",
-          "youtube/likes/PIYaUPAD3ZY?logo=undertale&label=Likes",
-        ],
-        en: [
           "youtube/views/PIYaUPAD3ZY?logo=youtube&label=İzlemeler",
           "youtube/likes/PIYaUPAD3ZY?logo=undertale&label=Beğeniler",
+        ],
+        en: [
+          "youtube/views/PIYaUPAD3ZY?logo=youtube&label=Views",
+          "youtube/likes/PIYaUPAD3ZY?logo=undertale&label=Likes",
         ],
       },
       desc: {

@@ -32,7 +32,9 @@ module.exports = {
         "icon-role": "url('/src/assets/icons/role.svg')",
         "icon-instructor": "url('/src/assets/icons/instructor.svg')",
         "icon-certificate": "url('/src/assets/icons/certificate.svg')",
-        "icon-credential": "url('/src/assets/icons/credential.svg')"
+        "icon-credential": "url('/src/assets/icons/credential.svg')",
+        "flag-tr": "url('/src/assets/icons/flag_tr.png')",
+        "flag-en": "url('/src/assets/icons/flag_en.png')",
       },
       fontFamily: {
         "code": ["Source Code Pro", "monospace"],

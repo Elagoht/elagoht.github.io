@@ -46,7 +46,7 @@
         @apply leading-7 font-title font-bold w-fit
     }
     p {
-        @apply leading-7
+        @apply leading-7 text-justify
     }
     h1 { 
         @apply border-b-zinc-500 text-3xl font-bold pb-2 border-b-2 w-full

@@ -124,9 +124,18 @@ function Resume() {
       ]}
       className="float-right"
     >
-      <p>This game made by Furkan Baytekin and Enes Baytekin in 48 hours for At0m Game Jam #2.</p>
-      <p>The graphics and music of the game are specially drawn and composed for this game.</p>
-      <p>Two mice playing a computer game on the keyboard, writing unit calling codes and trying to destroy the enemy castle. However, the troops die by fighting each other before they can hit the castle. Mice with the ambition to win plan to cheat and beat each other, but they are not the only ones who can cheat.</p>
+      {language === "tr"
+        ? <>
+          <p>Furkan Baytekin ve Enes Baytekin tarafından At0m Game Jam #2 için 48 saatte yapılan bu oyun.</p>
+          <p>Oyunun grafikleri ve müziği bu oyun için özel olarak çizilmiş ve bestelenmiştir.</p>
+          <p>Klavyede bilgisayar oyunu oynayan, birim arama kodları yazan ve düşman kalesini yok etmeye çalışan iki fare. Ancak birlikler kaleye varamadan birbirleriyle savaşarak ölürler. Kazanma hırsına sahip fareler hile yapmayı ve birbirlerini yenmeyi planlar ama hile yapabilenler sadece onlar değildir.</p>
+        </>
+        : <>
+          <p>This game made by Furkan Baytekin and Enes Baytekin in 48 hours for At0m Game Jam #2.</p>
+          <p>The graphics and music of the game are specially drawn and composed for this game.</p>
+          <p>Two mice playing a computer game on the keyboard, writing unit calling codes and trying to destroy the enemy castle. However, the troops die by fighting each other before they can hit the castle. Mice with the ambition to win plan to cheat and beat each other, but they are not the only ones who can cheat.</p>
+        </>
+      }
     </Experience>
 
     <Experience
