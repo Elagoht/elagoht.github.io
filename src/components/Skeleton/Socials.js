@@ -15,7 +15,7 @@ function Socials({ className }) {
 
   return <div className={"flex flex-wrap justify-center " + className}>
     {navlinks.map((link, i) => (
-      <a target="_blank" key={i} title={link["title"]} href={link["link"]}>
+      <a target="_blank" rel="noreferrer" key={i} title={link["title"]} href={link["link"]}>
         <div className={"nav-link " + link["bg"]}></div>
       </a>
     ))}

@@ -15,19 +15,19 @@ function Gallery({ medias, className }) {
     newState[index] = true
     setVisibles([...newState])
 
-  }, [index])
+  }, [index, medias.length])
 
   const manageIndex = (dir) => {
-    setIndex(dir == -1
-      ? (index == 0 ? medias.length - 1 : prev => prev - 1)
-      : (index == medias.length - 1 ? 0 : prev => prev + 1)
+    setIndex(dir === -1
+      ? (index === 0 ? medias.length - 1 : prev => prev - 1)
+      : (index === medias.length - 1 ? 0 : prev => prev + 1)
     )
   }
 
   return <figure className={"flex flex-col m-2 " + className}>
     <AnimatePresence mode="wait">
       {medias.map((media, i) => (
-        media.type == "img"
+        media.type === "img"
           ? <motion.div
             initial={{ display: visibles[i] ? "unset" : "none", opacity: visibles[i] ? 1 : 0, scale: visibles[i] ? "100%" : "50%" }}
             animate={{ display: visibles[i] ? "unset" : "none", opacity: visibles[i] ? 1 : 0, scale: visibles[i] ? "100%" : "50%", transition: { duration: .5 } }}
