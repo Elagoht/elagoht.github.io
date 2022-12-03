@@ -6,3 +6,4 @@
 - [X] Animations
 - [X] Theme Context
 - [X] Language Context
+- [X] HoverBubble

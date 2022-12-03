@@ -1,4 +1,5 @@
 import React from 'react'
+import HoverBubble from "../../components/HoverBubble"
 
 function Socials({ className }) {
   const navlinks = [
@@ -15,11 +16,14 @@ function Socials({ className }) {
 
   return <div className={"flex flex-wrap justify-center " + className}>
     {navlinks.map((link, i) => (
-      <a target="_blank" rel="noreferrer" key={i} title={link["title"]} href={link["link"]}>
-        <div className={"nav-link " + link["bg"]}></div>
-      </a>
-    ))}
-  </div>
+      <HoverBubble key={i} title={link.title}>
+        <a target="_blank" rel="noreferrer" href={link.link}>
+          <div className={"nav-link " + link.bg}></div>
+        </a>
+      </HoverBubble>
+    ))
+    }
+  </div >
 }
 
 export default Socials

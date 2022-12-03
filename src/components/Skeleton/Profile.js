@@ -17,7 +17,7 @@ function Profile() {
           <Titles
             titles={titles[language]}
           />
-          <Socials className="" />
+          <Socials />
         </div>
       </div>
     </div>
