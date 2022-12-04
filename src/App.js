@@ -8,15 +8,15 @@ import LanguageProvider from "./contexts/LanguageContext";
 
 function App() {
 
-  return <ThemeProvider>
-    <LanguageProvider>
+  return <LanguageProvider>
+    <ThemeProvider>
       <BrowserRouter>
         <Header />
         <Profile />
         <AnimatedRoots />
       </BrowserRouter>
-    </LanguageProvider>
-  </ThemeProvider>
+    </ThemeProvider>
+  </LanguageProvider>
 }
 
 export default App;

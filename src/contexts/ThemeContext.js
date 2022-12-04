@@ -4,8 +4,9 @@ export const ThemeContext = createContext()
 
 function ThemeProvider({ initialTheme, children }) {
 
-  const [theme, setTheme] = useState(localStorage.getItem("theme") === undefined ? "light" : localStorage.getItem("theme"))
-
+  const [theme, setTheme] = useState(!localStorage["theme"]
+    ? "light"
+    : localStorage.getItem("theme"))
   const setHTML = () => {
     const root = document.documentElement
     theme === "dark"

@@ -12,6 +12,8 @@ function Header() {
   const { theme, saveTheme } = useContext(ThemeContext)
   const { language, saveLanguage } = useContext(LanguageContext)
 
+  console.log(language)
+
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])

@@ -67,6 +67,6 @@
         @apply bg-zinc-100 dark:bg-zinc-800 dark:text-zinc-50
     }
     aside {
-        @apply mt-12
+        @apply mt-14
     }
 }

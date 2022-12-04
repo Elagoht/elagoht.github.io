@@ -4,7 +4,9 @@ export const LanguageContext = createContext()
 
 function LanguageProvider({ initialLangugage, children }) {
 
-  const [language, setLanguage] = useState(localStorage.getItem("language") === undefined ? "en" : localStorage.getItem("language"))
+  const [language, setLanguage] = useState(!localStorage["language"]
+    ? "en"
+    : localStorage.getItem("language"))
   const saveLanguage = (language) => {
     setLanguage(language)
     localStorage.setItem("language", language)
