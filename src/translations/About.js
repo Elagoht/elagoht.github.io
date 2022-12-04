@@ -4,11 +4,11 @@ export const mainTitle = {
 }
 export const aboutMe = {
   tr: <>
-    <p>Eğitim bölümünde okuyorum ve kodlama becerilerimi eğitime entegre etmek istiyorum. Amacım dijital ve modern eğitim materyalleri yaratmak. Nedeni ise okullarda eğitimin hala 100 yıl öncesi ile aynı görünmesi. Akıllı tahtaları ekledik. Ancak bu, öğrencilerin akıllı olmasına yardımcı olamaz. Bu yüzden programcılar olarak bizlerin bu duruma yardım eli uzatması gerektiğine inanıyorum.</p>
-    <p>Ayrıca ben, bir açık kaynak savunucusuyum. Linux'u ana işletim sistemim olarak kullanıyorum. <a href="https://www.youtube.com/@herkesicinlinux">Herkes İçin Linux</a> adlı Youtube kanalımda Linux ve açık kaynak projeleri hakkında eğitici videolar yayınlıyorum.</p>
+    <p>Eğitim fakültesinde okuyorum ve kodlama becerilerimi eğitimle birleştirmek istiyorum. Birincil amacım, dijital ve modern eğitim materyalleri tasarlamaktır. Okullarda eğitimin hâlâ 100 yıl öncesiyle aynı. Sınıflara akıllı tahtaları ekledik. Ancak bu, öğrencileri daha akıllı yapmaz. Bu yüzden yazılımcılar olarak bizlerin bu duruma yardım eli uzatması gerektiğine inanıyorum.</p>
+    <p>Ayrıca ben, bir açık kaynak savunucusuyum. Ana işletim sistemim olarak Linux kullanıyorum. <a href="https://www.youtube.com/@herkesicinlinux">Herkes İçin Linux</a> adlı Youtube kanalımda Linux ve açık kaynak projeleri hakkında eğitici videolar yayınlıyorum.</p>
   </>,
   en: <>
-    <p>I study at education department and I want to integrate my coding skills to education.  My aim is to create digital and modern education materials. The reason why is education in schools still looks same as 100 years ago. We just added smartboards. But this cannot be helpful to make students smart. So I believe we, who are programmers, should lend a helping hand to this situation.</p>
+    <p>I study at education department and want to integrate my coding skills to education. My primary aim is desiging modern and digital education materials. The reason why is education in schools still looks same as 100 years ago. We just added smartboards to classrooms. But this does not make students smart. So I believe we, who are programmers, should lend a helping hand to this situation.</p>
     <p>I am also an open source advocate. I use Linux as my main operating system. I publish educational videos about Linux and open source projects on my Youtube channel named <a href="https://www.youtube.com/@herkesicinlinux">Linux For Everyone</a>.</p>
   </>
 }

@@ -78,8 +78,8 @@ function Publications() {
       },
       desc: {
         tr: [
-          "\"Herkes İçin Linux\" herkes için bir kitap. Bu kitabın üç düzey rozeti var. Genel Kullanıcı Kitlesi, Deneyimli Kullanıcı Kitlesi, Profesyonel Kullanıcı Kitlesi. Bu kitabı okurken, o bölümü anlamak için hangi seviyenin gerekli olduğunu anlamak için bu rozetleri göreceksiniz.",
-          "Bu kitap Linux hakkında her şeyi anlatıyor: Nasıl kullanılır, kurulur, yapılandırılır; uygulamaları nasıl kurarsınız ve hangi uygulamaları kullanabilirsiniz, linux komutları nelerdir ve nasıl çalışır, sistem nasıl çalışır ve altındaki felsefe nedir ve daha fazlası..."
+          "\"Herkes İçin Linux\" herkes için bir kitap. Bu kitabın üç adet düzey rozeti var. Genel Kullanıcı Kitlesi, Deneyimli Kullanıcı Kitlesi, Uzman Kullanıcı Kitlesi. Bu kitabı okurken, o bölümü anlayabilmek için hangi seviyenin gerekli olduğunu görebilmek için bu rozetler kullanılmıştır.",
+          "Bu kitap Linux hakkında her şeyi anlatıyor: Nasıl kullanılır, kurulur, yapılandırılır; uygulamaları nasıl kurarsınız ve hangi uygulamaları kullanabilirsiniz; Linux komutları nelerdir ve nasıl çalışır; sistem nasıl çalışır ve altındaki felsefe nedir ve daha fazlası..."
         ],
         en: [
           "\"Linux For Everyone\" a book for everyone. This book has three level badges. General User Audience, Experienced User Audience, Professional User Audience. While reading this book you will see this badges to see which level required to understand that section.",
@@ -127,8 +127,8 @@ function Publications() {
         ],
       },
       desc: {
-        tr: "Linux terminal kursu. Bu dizide linux terminal komutlarıyla ilgili her ayrıntı açıklanmıştır. 'cd'den 'awk'a. Bu videoların sonunda linux terminal komutlarında ustalaşacaksınız.",
-        en: "Linux terminal course. Every single detail about linux terminal commands explained in this series. From 'cd' to 'awk'. In the end of this videos, you will be master at linux terminal commands."
+        tr: "Linux terminal kursu. Bu dizide linux terminal komutlarıyla ilgili her ayrıntı açıklanmıştır. 'cd'den 'awk'a. Bu videoların sonunda Linux terminal komutlarında ustalaşacaksınız.",
+        en: "Linux terminal course. Every single detail about linux terminal commands explained in this series. From 'cd' to 'awk'. In the end of this videos, you will be master at Linux terminal commands."
       },
       iframe: "PLGIvph8XiC3Qze9JPrU4JrwKqBd7E1bah"
     }, {
@@ -157,7 +157,7 @@ function Publications() {
         en: "Experienced User Audience"
       },
       desc: {
-        tr: "Bu videolar ön bilgi gerektirir ancak uzmanlık gerektirmez. Bu videolardaki bazı adımlar veya bilgiler herkese göre değildir.",
+        tr: "Bu videolar ön bilgi gerektirir ancak uzmanlık gerektirmez. Videolardaki bazı adımlar veya bilgiler herkese göre değildir.",
         en: "These videos require prior knowledge but no expertise. Some steps or information in these videos are not for everyone."
       },
       badges: {
@@ -187,7 +187,7 @@ function Publications() {
         ],
       },
       desc: {
-        tr: "Bu videoları izlerken bazı uzman özelliklerini bilmeniz gerekir. Örneğin, düzenli ifadeleri okuyabilmeli, sed veya awk bilmelisiniz.",
+        tr: "Bu videoları izlerken bazı uzmanlık gerektiren yetkinliklere sahip olmanız gerekir. Örneğin, düzenli ifadeleri (regex) okuyabilmeli, sed veya awk bilmelisiniz.",
         en: "While watching this videos you have to know some expert features. In example you should be able to read regex, know sed or awk."
       },
       iframe: "PLGIvph8XiC3ShOGgT6crsrEUBwgn16czg"

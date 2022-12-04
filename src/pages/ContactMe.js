@@ -1,7 +1,7 @@
 import Section from "../components/Skeleton/Section";
 import { LanguageContext } from "../contexts/LanguageContext"
 import { useContext } from "react";
-import { directs, h2s, mainTitle, others } from "../translations/contact";
+import { directs, h2s, mainTitle, others } from "../translations/Contact";
 
 function ContactMe() {
 

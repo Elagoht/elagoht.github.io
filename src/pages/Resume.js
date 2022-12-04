@@ -48,12 +48,12 @@ function Resume() {
     >
       {language === "tr"
         ? <>
-          <p>Bu projenin amacı, verilen verileri okumak, manipüle etmek, görselleştirmek, yorumlamak ve mevcut durumda karar verebilme becerisi kazandırmaktı. İkinci amaç ise uluslararası gruplarda uzaktan çalışabilme becerisi kazanmaktı.</p>
-          <p>Avrupa Birliği'nin ERASMUS+ programı tarafından 2019-1-UK01-KA203-061973 hibe sözleşmesi kapsamında ortaklaşa kurulan ve İngiltere'deki Gloucestershire Üniversitesi tarafından Gazi Üniversitesi (Türkiye) ile işbirliği içinde yönetilen L-Università ta' Malta ( Malta) ve Universidad Nacional de Educación a Distancia (UNED, İspanya).</p>
+          <p>Bu projenin amacı, verilen verileri okumak, manipüle etmek, görselleştirmek, yorumlamak, mevcut durumda karar verebilme ve bunları <b>sürdürülebilir kalkınma hedefleri</b> doğrultusunda kullanma becerisi kazanmaktır. İkinci amaç ise uluslararası gruplarda uzaktan çalışma deneyimi kazandırmaktır.</p>
+          <p>Avrupa Birliği'nin ERASMUS+ programı tarafından 2019-1-UK01-KA203-061973 hibe sözleşmesi kapsamında Gloucestershire University (İngiltere) tarafından Gazi Üniversitesi ile işbirliği içinde yönetilen L-Università ta' Malta (Malta) ve Universidad Nacional de Educación a Distancia (UNED, İspanya) ile ortaklaşa gerçekleştirilmiştir.</p>
         </>
         : <>
-          <p>The aim of this project was to read, manipulate, visualize and interpret the given data and to get ability to take decisions in the current situation. Second aim was getting ability to work remote in international groups.</p>
-          <p>Co-founded by the ERASMUS+ program of the European Union under grant agreement 2019‐1‐UK01‐KA203‐061973 and led by the University of Gloucestershire in the UK, in collaboration with Gazi Üniversitesi (Turkey), L-Università ta’ Malta (Malta) and Universidad Nacional de Educación a Distancia (UNED, Spain).</p>
+          <p>The aim of this project was to read, manipulate, visualize and interpret the given data and to get ability to take decisions in the current situation to use that abilities for <b>sustainable development goals</b>. Second aim was getting ability to work remote in international groups.</p>
+          <p>Co-founded by the ERASMUS+ program of the European Union under grant agreement 2019‐1‐UK01‐KA203‐061973 and led by the University of Gloucestershire (UK), in collaboration with Gazi Üniversitesi (Turkey), L-Università ta’ Malta (Malta) and Universidad Nacional de Educación a Distancia (UNED, Spain).</p>
         </>
       }
     </Experience>
@@ -88,12 +88,12 @@ function Resume() {
     >
       {language === "tr"
         ? <>
-          <p>Takım arkadaşımla birlikte 24 saatte Dud OS adlı bir oyun için oyun kaynakları ve masaüstü pencereleri tasarladım.</p>
-          <p>Bir mühendis olduğunuzu ve gerekli becerilere sahip olmadan bir işe girdiğinizi hayal edin. Ancak bu iş, uzaylıları öldürmek için bir güç kıyafeti geliştirmektir. Tahmin edersiniz ki işler umduğunuz gibi gitmez. Güç takımına uzaktan bağlanmalı ve kodlardaki hataları düzeltmelisiniz. Bu şekilde evrennaut gidip uzaylı patronu öldürebilir.</p>
+          <p>Takım arkadaşım Enes Batekin'le birlikte 24 saatte yaptığımız Dud OS adlı bu oyun için çizimler ve bölüm tasarımı yapıp ve oyunun ana mekaniği olan masaüstü pencerelerini tasarladım.</p>
+          <p>Bir mühendis olduğunuzu ve gerekli becerilere sahip olmadan bir işe girdiğinizi hayal edin. Ancak bu iş, uzaylıları öldürmek için bir güç kıyafeti geliştirmek. Tahmin edebileceğiniz üzere işler umulduğu gibi gitmez. Güç kıyafetine uzaktan bağlanmalı ve kodlardaki hataları düzeltmelisiniz. Ancak bu sayede evrenot gidip uzaylı yaratığı öldürebilir.</p>
         </>
         : <>
-          <p>I designed a game resources and desktop windows for a game that named Dud OS in 24 hours, with my teammate.</p>
-          <p>Imagine you are an engineer and you came into a job without meeting required skills. But this job is developing a power suit, to kill aliens. You can guess, things don't go as expected. You must remote connect to the power suit and fix bugs in codes. In this way the evrenaut can go and kill alien boss.</p>
+          <p>I designed resources, levels and desktop windows that is the main mechanics, of this game that named Dud OS we made in 24 hours, with my teammate.</p>
+          <p>Imagine you are an engineer and you came into a job without meeting required skills. But this job is developing a power suit, to kill aliens. You can guess, things don't go as expected. You must remote connect to the power suit and fix bugs in codes. Only in this way the evrenaut can go and kill alien boss.</p>
         </>
       }
     </Experience>
@@ -126,12 +126,12 @@ function Resume() {
     >
       {language === "tr"
         ? <>
-          <p>Furkan Baytekin ve Enes Baytekin tarafından At0m Game Jam #2 için 48 saatte yapılan bu oyun.</p>
-          <p>Oyunun grafikleri ve müziği bu oyun için özel olarak çizilmiş ve bestelenmiştir.</p>
-          <p>Klavyede bilgisayar oyunu oynayan, birim arama kodları yazan ve düşman kalesini yok etmeye çalışan iki fare. Ancak birlikler kaleye varamadan birbirleriyle savaşarak ölürler. Kazanma hırsına sahip fareler hile yapmayı ve birbirlerini yenmeyi planlar ama hile yapabilenler sadece onlar değildir.</p>
+          <p>Ekip arkadaşım Enes Baytekin ile birlikte Mağara Game Jam #2 için 48 saatte bir oyun geliştirdik.</p>
+          <p>Oyunun grafikleri bu oyun için özel olarak çizilmiş ve müzikleri özel olarak bestelenmiştir.</p>
+          <p>Klavye üzerinde bilgisayar oyunu oynayan, birlik çağırma kodları yazan ve düşman kalesini yok etmeye çalışan iki fare bu oyunun karakterleridir. Ancak çağrılan birlikler düşman kalesine varamadan savaşarak ölürler. Kazanma hırsına sahip bu fareler ise hile yapmayı ve birbirlerini yenmeyi planlarlar ancak hile yapabilen sadece kendileri değildir.</p>
         </>
         : <>
-          <p>This game made by Furkan Baytekin and Enes Baytekin in 48 hours for At0m Game Jam #2.</p>
+          <p>This game made by Furkan Baytekin and Enes Baytekin in 48 hours for Magara Game Jam #2.</p>
           <p>The graphics and music of the game are specially drawn and composed for this game.</p>
           <p>Two mice playing a computer game on the keyboard, writing unit calling codes and trying to destroy the enemy castle. However, the troops die by fighting each other before they can hit the castle. Mice with the ambition to win plan to cheat and beat each other, but they are not the only ones who can cheat.</p>
         </>
@@ -167,12 +167,12 @@ function Resume() {
     >
       {language === "tr"
         ? <>
-          <p>Bu oyun 3 günde bir oyun sıkışması için yapıldı. Oyunu kodladım, sfx ürettim varlıkları çizdim ve tek başıma müzik besteledim. Bu bir prototipti. Bir platform bulmaca oyunu.</p>
-          <p>Işınlanma, Yansıtıcı mermiler, kaldıraçlar, baskı plakaları ve yüzen kutular dahildir. Puan kazanmak için toplanabilir meyveler var.</p>
+          <p>Bu oyun 3 gün içinde bir oyun yapma yarışması (game jam) için yapılmıştır. Tüm bir oyun kodladım, ses efektleri ürettim görseller çizdim ve tek başıma müzik besteledim. 3 günde ancak bu prototip ortaya çıktı: bir platform bulmaca oyunu.</p>
+          <p>Işınlanma, yansıtıcı mermiler, kaldıraçlar, basınç plakaları ve uçan kutular dahildir. Puan kazanmak için toplanabilir meyveler de var.</p>
         </>
         : <>
-          <p>This game made for a game jam in 3 days. I coded the game, drew assets produced sfx and composed music alone. This was a prototype. A platformer puzzle game.</p>
-          <p>Teleport, Reflective bullets, levers, pressure plates and floating boxes are included. There are collectible fruits to gain score.</p>
+          <p>This game made for a game jam in 3 days. I coded the game, drew assets produced sfx and composed music alone. I could only create this prototyope in 3 days: a platformer puzzle game.</p>
+          <p>Teleport, reflective bullets, levers, pressure plates and floating boxes are included. There are collectible fruits to gain score.</p>
         </>
       }
     </Experience>
@@ -205,8 +205,8 @@ function Resume() {
     >
       {language === "tr"
         ? <>
-          <p>Vildan Kaya Erbatur Hanım ve Aydın Afacan Bey'in düzenlediği şiir dinletisi. Türk edebiyatını seven ya da bu konsere font müziği çalarak destek olmak isteyen birçok öğrenci bu etkinliğe katıldı.</p>
-          <p>Font müzik grubuna bas gitarist olarak katıldım. Bu benim için inanılmaz bir deneyimdi. Müzik karmaşık bile değil ama bu büyük organizasyonun bir parçası olmak beni mutlu etti.</p>
+          <p>Vildan Kaya Erbatur ve Aydın Afacan tarafından düzenlenen şiir dinletisi. Türk edebiyatını seven ya da bu konsere fon müziği çalarak destek olmak isteyen birçok öğrenci bu etkinliğe katıldı.</p>
+          <p>Fon müzik grubuna bas gitarist olarak katıldım. Bu benim için inanılmaz bir deneyimdi. Müzik karmaşık, çalması zor bile değil ama bu büyük organizasyonun bir parçası olmak beni mutlu etti.</p>
         </>
         : <>
           <p>A poetry concert organized by Mrs. Vildan Kaya Erbatur and Mr. Aydın Afacan. Lots of students who love Turkish literature or who want to support this concert by playing font music have joined this activity.</p>
@@ -233,11 +233,11 @@ function Resume() {
       }} styles="colspan-2">
         {language === "tr"
           ? <>
-            <p>Erasmus+ organizasyonu sayesinde uluslararası bir projeye katıldım.</p>
-            <p>Gazi BlockChain Topluluğu ve Erasmus Öğrenci Ağı'na katıldım.</p>
+            <p>Erasmus+ organizasyonu sayesinde uluslararası bir veri bilimi projesine katıldım.</p>
+            <p>Gazi BlockChain Topluluğu ve Erasmus Öğrenci Ağına katıldım.</p>
           </>
           : <>
-            <p>I joined an international project thanks to Erasmus+ organization.</p>
+            <p>I joined an international data science project thanks to Erasmus+ organization.</p>
             <p>Been participant of Gazi BlockChain Community and Erasmus Student Network.</p>
           </>
         }
@@ -256,7 +256,7 @@ function Resume() {
         logo: assets.associate
       }} >
         {language === "tr"
-          ? <p>Çevrimiçi yayıncılıkla ilgili yasal bilgiler hakkında bilgi edinmek, bilgi eksikliklerini gidermek ve kendi kendime öğrendiğim beceriler hakkında bir derece elde etmek istiyordum.</p>
+          ? <p>Çevrimiçi yayıncılıkla ilgili yasal bilgiler hakkında bilgi edinmek, bilgi eksikliklerini gidermek ve kendi kendime öğrendiğim beceriler hakkında bir diploma elde etmek istiyordum.</p>
           : <p>I wanted to learn about legal information about online publishing, to rectify knowledge gaps and to get a degree about my self-taught skills.</p>
         }
       </Education>
@@ -275,19 +275,19 @@ function Resume() {
       }}>
         {language === "tr"
           ? <>
-            <p>Okul konserlerinde ve gösterilerinde düzenli olarak bas gitar çaldı.</p>
-            <p>Dijital ses iş istasyonları ve sanal ses teknolojilerini kullanarak orkestra ve metal türünde kendi müziklerimi besteledim.</p>
+            <p>Okul konserlerinde ve gösterilerinde düzenli olarak bas gitar çaldım.</p>
+            <p>Dijital ses çalışma alanları (DAW) ve sanal ses teknolojilerini kullanarak kendi orkestral ve metal türündeki müziklerimi besteledim.</p>
           </>
           : <>
-            <p>Played bass guitar regularly on school concerts and shows.</p>
-            <p>Composed my own musics in the kind of orchestral and metal usin digital audio workstations and virtual sound technologies .</p>
+            <p>I played bass guitar regularly on school concerts and shows.</p>
+            <p>I composed my own musics in the kind of orchestral and metal using digital audio workstations (DAW) and virtual sound technologies.</p>
           </>
         }
       </Education>
 
     </div>
 
-    <h2>Volunteer Projects</h2>
+    {h2s[language][2]}
 
     <Experience
       data={{
@@ -328,12 +328,12 @@ function Resume() {
       className="float-left !w-full max-md:!w-[unset]"
     >
       {language === "tr"
-        ? <p>I have start a project to make people less afraid about Linux and make them to use Linux based OSes. I have record videos about Linux and write articles about what Linux is, how it works and how to use it.</p>
-        : <p>İnsanların Linux'tan daha az korkmasını sağlamak ve Linux tabanlı işletim sistemlerini kullanmalarını sağlamak için bir proje başlattım. Linux hakkında videolar kaydettim ve Linux'un ne olduğu, nasıl çalıştığı ve nasıl kullanılacağı hakkında makaleler yazıyorum.</p>
+        ? <p>İnsanların Linux'tan daha az korkmasını sağlamak ve Linux tabanlı işletim sistemlerini kullanmalarını sağlamak için bir proje başlattım. Linux hakkında videolar kaydediyor; Linux'un ne olduğu, nasıl çalıştığı ve nasıl kullanılacağı hakkında makaleler yazıyorum.</p>
+        : <p>I have start a project to make people less afraid about Linux and make them to use Linux based OSes. I have record videos about Linux and write articles about what Linux is, how it works and how to use it.</p>
       }
     </Experience>
 
-    {h2s[language][2]}
+    {h2s[language][3]}
 
     <div className="grid grid-cols-1 gap-4">
 

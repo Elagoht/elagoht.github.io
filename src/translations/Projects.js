@@ -15,8 +15,8 @@ export const h4s = {
 export const errors = {
   tr: [
     <p>Veri bulunamadı. Lütfen hatayı bana <a className="text-white underline" href="mailto:furkanbaytekin@gmail.com">bildirin</a>.</p>,
-    <p>Github REST API bir saatte 60'tan fazla kez kullanıldı. Bu, ücretsiz kullanımın sınırıdır. Bu siteye özel bir sorun değildir. Github REST API kullanan hiçbir siteyi görüntüleyemeyeceksiniz.</p>,
-    <p>Hiçbir şey. Sadece biraz bekleyin. Daha sonra yüklenmelidir. Sayfayı sık sık yenilemeyi denemeyiniz.</p>
+    <p>Github REST API bir saatte 60'tan fazla kez kullanıldı. Bu, ücretsiz kullanımın sınırıdır. Yalnız bu siteye özel bir sorun değil. Github REST API kullanan hiçbir siteyi görüntüleyemeyeceksiniz.</p>,
+    <p>Hiçbir şey. Sadece biraz bekleyin. İçerik daha sonra yüklenmelidir. Sayfayı sık sık yenilemeyi denemeyiniz.</p>
   ],
   en: [
     <p>Data not found. Please <a className="text-white underline" href="mailto:furkanbaytekin@gmail.com">report</a> this issue.</p>,
