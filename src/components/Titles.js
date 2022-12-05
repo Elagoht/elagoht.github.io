@@ -16,12 +16,9 @@ function Titles({ titles }) {
       setLetter(1)
       clearTimeout(wordTimer)
     }
-  }, [index])
+  }, [index, titles])
 
   useEffect(() => {
-
-    let buffer = ""
-
     const letterTimer = setInterval(() => {
       setLetter(prev => prev + 1)
       setResult(text.slice(0, letter))
@@ -31,7 +28,7 @@ function Titles({ titles }) {
       clearTimeout(letterTimer)
     }
 
-  }, [letter])
+  }, [letter, text])
 
   return <span id="my-title" className="text-orange-300 font-code text-2xl px-1">{result}</span>
 

@@ -39,7 +39,7 @@ import thumb_web402 from "../assets/certificates/thumb/web402.png"
 import thumb_webusability from "../assets/certificates/thumb/webusability.png"
 import thumb_diction from "../assets/certificates/thumb/diction.png"
 
-export default {
+const assets = {
   "dataskills": dataskills,
   "magarajam3": magarajam3,
   "magarajam2": magarajam2,
@@ -81,3 +81,5 @@ export default {
   "thumb_webusability": thumb_webusability,
   "thumb_diction": thumb_diction
 }
+
+export default assets

@@ -7,4 +7,4 @@
 - [X] Theme Context
 - [X] Language Context
 - [X] HoverBubble
-- [ ] Footer
+- [X] Footer
