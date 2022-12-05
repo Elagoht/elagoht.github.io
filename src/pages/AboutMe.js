@@ -42,7 +42,7 @@ function AboutMe() {
 
     {h3s[language][0]}
 
-    <ul className="my-4 relative columns-4 max-lg:columns-3 max-md:columns-2 max-[480px]:columns-1">
+    <ul className="my-4 relative columns-3 max-md:columns-2 max-[480px]:columns-1 max-md:mx-4">
       {digitalLanguages.map((badge, i) => (
         <li key={i} className="time-line">
           <div className="flex gap-2 items-center">

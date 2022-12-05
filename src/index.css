@@ -39,10 +39,13 @@
         @apply my-2 pl-4 
         before:box-content before:absolute before:h-9 before:-ml-4 before:-mt-1 before:w-[2px] before:bg-pink-700
         after:box-content after:absolute after:-ml-[21px] after:-mt-5 after:w-3 after:aspect-square after:rounded-full after:bg-pink-600
-      
     }
-    .time-line:first-child { @apply before:h-5 before:mt-3 }
-    .time-line:last-child { @apply before:h-4 }
+    .time-line:first-child {
+        @apply before:h-5 before:mt-3 after:w-5 after:-ml-[25px] after:-mt-6 
+    }
+    .time-line:last-child {
+        @apply before:h-4 after:w-5 after:-ml-[25px] after:-mt-6
+    }
     #close-menu {
         @apply flex-1 w-full h-[100vh] bg-black bg-opacity-80
     }
