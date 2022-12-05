@@ -17,10 +17,10 @@ export const h2s = {
 export const buttons = {
   tr: [
     "İçeriğe Git",
-    "Kıtabımı Satın Alın"
+    "(Beklemede Kalın)"
   ],
   en: [
     "Go To Content",
-    "Buy My Book"
+    "(Keep Waiting)"
   ]
 }
