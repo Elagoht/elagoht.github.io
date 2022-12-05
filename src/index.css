@@ -46,6 +46,15 @@
     #close-menu {
         @apply flex-1 w-full h-[100vh] bg-black bg-opacity-80
     }
+    ::-webkit-scrollbar {
+        @apply w-2 h-2 bg-zinc-900
+    }
+    ::-webkit-scrollbar-thumb {
+        @apply bg-zinc-800
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        @apply bg-zinc-700
+    }
     * {
         @apply font-body scroll-smooth transition-colors
     }
