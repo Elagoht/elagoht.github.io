@@ -13,11 +13,11 @@ function AnimatedRoots() {
 
   return <AnimatePresence mode="wait">
     <Routes key={location.pathname} location={location}>
-      <Route index element={<AboutMe />} />
-      <Route path="publications" element={<Publications />} />
-      <Route path="resume" element={<Resume />} />
-      <Route path="projects" element={<Projects />} />
-      <Route path="contact-me" element={<ContactMe />} />
+      <Route index path="portfolio" element={<AboutMe />} />
+      <Route path="/portfolio/publications" element={<Publications />} />
+      <Route path="/portfolio/resume" element={<Resume />} />
+      <Route path="/portfolio/projects" element={<Projects />} />
+      <Route path="/portfolio/contact-me" element={<ContactMe />} />
       <Route path="*" element={<Error404 />} />
     </Routes>
   </AnimatePresence>
