@@ -38,8 +38,8 @@ module.exports = {
       },
       fontFamily: {
         "code": ["Source Code Pro", "monospace"],
-        "display": ["Patua One", "cursive"],
-        "title": ["Open Sans", "cursive"],
+        "display": ["Patua One", "sans-serif"],
+        "title": ["Open Sans", "sans-serif"],
         "body": ["Montserrat", "sans-serif"]
       },
       backgroundSize: {

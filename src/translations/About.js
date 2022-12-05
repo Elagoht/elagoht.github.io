@@ -44,11 +44,11 @@ export const languages = {
 }
 export const knownLanguages = {
   tr: [
-    "Türkçe",
-    "İngilizce"
+    "TÜRKÇE",
+    "İNGİLİZCE"
   ],
   en: [
-    "Turkish",
-    "English"
+    "TURKISH",
+    "ENGLISH"
   ]
 }
