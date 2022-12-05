@@ -12,8 +12,6 @@ function Header() {
   const { theme, saveTheme } = useContext(ThemeContext)
   const { language, saveLanguage } = useContext(LanguageContext)
 
-  console.log(language)
-
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])
@@ -49,7 +47,7 @@ function Header() {
         <div className={"hamburger" + (menu ? " opacity-0" : "")}></div>
         <div className={"hamburger" + (menu ? " -rotate-45 -translate-y-[11px]" : "")}></div>
       </motion.div>
-      <div onClick={() => setMenu(false)} className={"transition-all max-sm:absolute max-sm:w-64 max-sm:bg-zinc-800 max-sm:mt-14 max-sm:h-[100vh] " + (menu ? "max-sm:left-0" : "max-sm:-left-64")}>
+      <div onClick={() => setMenu(false)} className={"transition-all max-sm:absolute max-sm:w-64 max-sm:bg-zinc-800 max-sm:mt-14 max-sm:h-[100vh] max-[400px]:w-full " + (menu ? "max-sm:left-0" : "max-sm:-left-64 max-[400px]:-left-full ")}>
         <nav className="flex max-sm:py-1 sm:px-1 max-sm:flex-col">
           <NavLink onClick={scrollToContent} to="/" activeclassname="active" className="header-button">{menuItems[language][0]}</NavLink>
           <NavLink onClick={scrollToContent} to="resume" activeclassname="active" className="header-button">{menuItems[language][1]}</NavLink>

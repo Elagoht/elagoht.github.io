@@ -36,7 +36,7 @@ function Certificate({ data }) {
           id="close-menu"
           className="flex relative items-center justify-center"
         >
-          <img src={data.document} alt={data.title} className="max-w-full max-h-full" onLoad={() => setLoad(true)} />
+          <img src={data.document} alt={data.title} className={"max-w-full max-h-full " + (!load && "hidden")} onLoad={() => setLoad(true)} />
           {!load && <motion.div
             initial={{ scale: 3 }}
             animate={{ rotate: [0, 360], transition: { duration: 2, repeat: Infinity, ease: "anticipate" } }}

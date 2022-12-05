@@ -1,11 +1,15 @@
 import Badges from "../components/Badges";
 import Section from "../components/Skeleton/Section";
 import { aboutMe, h2s, h3s, knownLanguages, languages, mainTitle } from "../translations/About";
-import { useContext } from "react"
+import { useContext, useEffect } from "react"
 import { LanguageContext } from "../contexts/LanguageContext";
 
 function AboutMe() {
   const { language } = useContext(LanguageContext)
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }, [])
 
   return <Section>
     {mainTitle[language]}
@@ -64,11 +68,11 @@ function AboutMe() {
 
     {h2s[language][1]}
 
-    <div className="columns-2 max-sm:columns-1">
-      <div className="flex items-center">
+    <div className="columns-2">
+      <div className="flex flex-col justify-center items-center">
         {languages[language][0]} <img className="m-1 rounded-full" alt="Turkish" src={`https://img.shields.io/badge/${knownLanguages[language][0]}-db0a16?logo=homeassistantcommunitystore&logoColor=white&style=flat-square`} />
       </div>
-      <div className="flex items-center">
+      <div className="flex flex-col justify-center items-center">
         {languages[language][1]} <img className="m-1 rounded-full" alt="English" src={`https://img.shields.io/badge/${knownLanguages[language][1]}-11145b?logo=googleearth&logoColor=white&style=flat-square`} />
       </div>
     </div>

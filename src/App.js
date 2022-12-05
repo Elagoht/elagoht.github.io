@@ -5,6 +5,7 @@ import AnimatedRoots from "./pages/AnimatedRoutes";
 import ThemeProvider from "./contexts/ThemeContext"
 import { BrowserRouter } from "react-router-dom";
 import LanguageProvider from "./contexts/LanguageContext";
+import Footer from "./components/Skeleton/Footer";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Profile />
         <AnimatedRoots />
+        <Footer />
       </BrowserRouter>
     </ThemeProvider>
   </LanguageProvider>
