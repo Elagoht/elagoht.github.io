@@ -88,11 +88,11 @@ function Resume() {
     >
       {language === "tr"
         ? <>
-          <p>Takım arkadaşım Enes Batekin'le birlikte 24 saatte yaptığımız Dud OS adlı bu oyun için çizimler ve bölüm tasarımı yapıp ve oyunun ana mekaniği olan masaüstü pencerelerini tasarladım.</p>
+          <p>Takım arkadaşım Enes Baytekin'le birlikte 24 saatte yaptığımız Dud OS adlı bu oyun için çizimler ve bölüm tasarımı yapıp ve oyunun ana mekaniği olan masaüstü pencerelerini tasarladım.</p>
           <p>Bir mühendis olduğunuzu ve gerekli becerilere sahip olmadan bir işe girdiğinizi hayal edin. Ancak bu iş, uzaylıları öldürmek için bir güç kıyafeti geliştirmek. Tahmin edebileceğiniz üzere işler umulduğu gibi gitmez. Güç kıyafetine uzaktan bağlanmalı ve kodlardaki hataları düzeltmelisiniz. Ancak bu sayede evrenot gidip uzaylı yaratığı öldürebilir.</p>
         </>
         : <>
-          <p>I designed resources, levels and desktop windows that is the main mechanics, of this game that named Dud OS we made in 24 hours, with my teammate.</p>
+          <p>I designed resources, levels and desktop windows that is the main mechanics, of this game that named Dud OS we made in 24 hours, with my teammate Enes Baytekin.</p>
           <p>Imagine you are an engineer and you came into a job without meeting required skills. But this job is developing a power suit, to kill aliens. You can guess, things don't go as expected. You must remote connect to the power suit and fix bugs in codes. Only in this way the evrenaut can go and kill alien boss.</p>
         </>
       }
