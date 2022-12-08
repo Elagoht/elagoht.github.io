@@ -4,7 +4,7 @@ export const mainTitle = {
 }
 export const aboutMe = {
   tr: <>
-    <p>Eğitim fakültesinde okuyorum ve kodlama becerilerimi eğitimle birleştirmek istiyorum. Birincil amacım, dijital ve modern eğitim materyalleri tasarlamaktır. Okullarda eğitimin hâlâ 100 yıl öncesiyle aynı. Sınıflara akıllı tahtaları ekledik. Ancak bu, öğrencileri daha akıllı yapmaz. Bu yüzden yazılımcılar olarak bizlerin bu duruma yardım eli uzatması gerektiğine inanıyorum.</p>
+    <p>Eğitim fakültesinde okuyorum ve kodlama becerilerimi eğitimle birleştirmek istiyorum. Birincil amacım, dijital ve modern eğitim materyalleri tasarlamaktır. Okullarda eğitim hâlâ 100 yıl öncesiyle aynı. Sınıflara akıllı tahtaları ekledik. Ancak bu, öğrencileri daha akıllı yapmaz. Bu yüzden yazılımcılar olarak bizlerin bu duruma yardım eli uzatması gerektiğine inanıyorum.</p>
     <p>Ayrıca ben, bir açık kaynak savunucusuyum. Ana işletim sistemim olarak Linux kullanıyorum. <a href="https://www.youtube.com/@herkesicinlinux">Herkes İçin Linux</a> adlı Youtube kanalımda Linux ve açık kaynak projeleri hakkında eğitici videolar yayınlıyorum.</p>
   </>,
   en: <>
