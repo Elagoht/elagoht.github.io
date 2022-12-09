@@ -356,9 +356,9 @@ function Resume() {
       }} />
 
       <Certificate data={{
-        title: "React",
-        thumb: assets.thumb_react201,
-        document: assets.cert_react201,
+        title: "React 301",
+        thumb: assets.thumb_react301,
+        document: assets.cert_react301,
         instructor: "Mehmet Seven",
         credential: "https://gelecegiyazanlar.turkcell.com.tr",
         link: "https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/elagoht/React/201"

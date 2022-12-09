@@ -17,7 +17,7 @@ import cert_linux401 from "../assets/certificates/linux401.png"
 import cert_powerpoint from "../assets/certificates/powerpoint.png"
 import cert_python from "../assets/certificates/python.png"
 import cert_python401 from "../assets/certificates/python401.png"
-import cert_react201 from "../assets/certificates/react201.png"
+import cert_react301 from "../assets/certificates/react301.png"
 import cert_timemanagement from "../assets/certificates/timemanagement.png"
 import cert_web402 from "../assets/certificates/web402.png"
 import cert_webusability from "../assets/certificates/webusability.png"
@@ -33,7 +33,7 @@ import thumb_linux401 from "../assets/certificates/thumb/linux401.png"
 import thumb_powerpoint from "../assets/certificates/thumb/powerpoint.png"
 import thumb_python from "../assets/certificates/thumb/python.png"
 import thumb_python401 from "../assets/certificates/thumb/python401.png"
-import thumb_react201 from "../assets/certificates/thumb/react201.png"
+import thumb_react301 from "../assets/certificates/thumb/react301.png"
 import thumb_timemanagement from "../assets/certificates/thumb/timemanagement.png"
 import thumb_web402 from "../assets/certificates/thumb/web402.png"
 import thumb_webusability from "../assets/certificates/thumb/webusability.png"
@@ -59,7 +59,7 @@ const assets = {
   "cert_powerpoint": cert_powerpoint,
   "cert_python": cert_python,
   "cert_python401": cert_python401,
-  "cert_react201": cert_react201,
+  "cert_react301": cert_react301,
   "cert_timemanagement": cert_timemanagement,
   "cert_web402": cert_web402,
   "cert_webusability": cert_webusability,
@@ -75,7 +75,7 @@ const assets = {
   "thumb_powerpoint": thumb_powerpoint,
   "thumb_python": thumb_python,
   "thumb_python401": thumb_python401,
-  "thumb_react201": thumb_react201,
+  "thumb_react301": thumb_react301,
   "thumb_timemanagement": thumb_timemanagement,
   "thumb_web402": thumb_web402,
   "thumb_webusability": thumb_webusability,
