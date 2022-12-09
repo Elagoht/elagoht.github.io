@@ -9,8 +9,8 @@ function Certificate({ data }) {
   return <div className="card">
     <div className="flex justify-between w-full gap-4">
       <div className="flex flex-col">
-        <div style={{ wordBreak: "break-word", hyphens: "manual" }} className="label-icon bg-icon-certificate text-indigo-400">{data.title}</div>
-        <div className="label-icon bg-icon-instructor text-purple-400">{data.instructor}</div>
+        <div style={{ wordBreak: "break-word", hyphens: "manual" }} className="label-icon bg-icon-certificate text-indigo-500">{data.title}</div>
+        <div className="label-icon bg-icon-instructor text-purple-500">{data.instructor}</div>
         <a style={{ wordBreak: "break-word" }} className="break-words label-icon bg-icon-credential" href={data.link}>{data.credential}</a>
       </div>
       <div style={{ backgroundImage: `url(${data.thumb})` }} className="group relative w-[150px] h-[108px] bg-center bg-cover flex-shrink-0  border border-zinc-400" onClick={() => setPopUp(prev => !prev)}>

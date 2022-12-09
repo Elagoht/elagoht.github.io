@@ -6,9 +6,9 @@ function Education({ data, children }) {
   const { language } = useContext(LanguageContext)
   return <div className="card">
     <div>
-      <div className="label-icon bg-icon-school">{data.school[language]}</div>
-      <div className="label-icon bg-icon-edu">{data.level[language]}</div>
-      <div className="label-icon bg-icon-date">{data.date}</div>
+      <div className="text-indigo-500 label-icon bg-icon-school">{data.school[language]}</div>
+      <div className="text-purple-500 label-icon bg-icon-edu">{data.level[language]}</div>
+      <div className="text-pink-500 label-icon bg-icon-date">{data.date}</div>
     </div>
     <hr className="border-zinc-500" />
     <div>
