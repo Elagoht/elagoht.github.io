@@ -52,8 +52,8 @@ function Projects() {
   return <Section>
     {mainTitle[language]}
     <div className="flex justify-evenly">
-      <img src={"https://github-readme-stats.vercel.app/api?username=Elagoht&count_private=true&show_icons=true" + (theme == "dark" ? "&theme=dracula" : "")} alt="Github Stats" />
-      <img src={"https://github-readme-stats.vercel.app/api/top-langs/?username=Elagoht&langs_count=10&layout=compact" + (theme == "dark" ? "&theme=dracula" : "")} alt="Language Stats" />
+      <img src={"https://github-readme-stats.vercel.app/api?username=Elagoht&count_private=true&show_icons=true" + (theme === "dark" ? "&theme=dracula" : "")} alt="Github Stats" />
+      <img src={"https://github-readme-stats.vercel.app/api/top-langs/?username=Elagoht&langs_count=10&layout=compact" + (theme === "dark" ? "&theme=dracula" : "")} alt="Language Stats" />
     </div>
     <div className="grid gap-4 grid-cols-2 max-md:grid-cols-1">
       {data.map((repo, i) => (
