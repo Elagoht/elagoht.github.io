@@ -3,7 +3,7 @@ import Repo from "../components/Repo";
 import useSWR from "swr";
 import { motion } from "framer-motion"
 import useScrollToContent from "../hooks/scrollToContent"
-import { errors, h4s, loading, mainTitle } from "../translations/Projects";
+import { errors, h2s, h4s, loading, mainTitle } from "../translations/Projects";
 import { LanguageContext } from "../contexts/LanguageContext"
 import { ThemeContext } from "../contexts/ThemeContext"
 import { useContext } from "react";
@@ -51,10 +51,12 @@ function Projects() {
 
   return <Section>
     {mainTitle[language]}
-    <div className="flex justify-evenly">
+    {h2s[language][0]}
+    <div className="flex justify-evenly flex-wrap gap-4">
       <img src={"https://github-readme-stats.vercel.app/api?username=Elagoht&count_private=true&show_icons=true" + (theme === "dark" ? "&theme=dracula" : "")} alt="Github Stats" />
       <img src={"https://github-readme-stats.vercel.app/api/top-langs/?username=Elagoht&langs_count=10&layout=compact" + (theme === "dark" ? "&theme=dracula" : "")} alt="Language Stats" />
     </div>
+    {h2s[language][1]}
     <div className="grid gap-4 grid-cols-2 max-md:grid-cols-1">
       {data.map((repo, i) => (
         <Repo key={i} data={repo} />

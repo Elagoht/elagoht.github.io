@@ -2,6 +2,16 @@ export const mainTitle = {
   tr: <h1>Projeler</h1>,
   en: <h1>Projects</h1>
 }
+export const h2s = {
+  tr: [
+    <h2>İstatistikler</h2>,
+    <h2>Depolar</h2>
+  ],
+  en: [
+    <h2>Statistics</h2>,
+    <h2>Repositories</h2>
+  ]
+}
 export const h4s = {
   tr: [
     <h4>Yükleme Hatası</h4>,
