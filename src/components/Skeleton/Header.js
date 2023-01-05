@@ -22,6 +22,12 @@ function Header() {
     }
   }, [width])
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
   const scrollToContent = () => {
     const profile = document.getElementById("profile").offsetHeight
     if (document.body.scrollHeight - profile > window.innerHeight) {
@@ -29,12 +35,7 @@ function Header() {
         top: profile,
         behavior: "smooth"
       })
-    } else {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      })
-    }
+    } else scrollToTop()
   }
 
   return <header className="fixed top-0 left-0 right-0 bg-zinc-900 h-14 items-center z-40">
@@ -49,11 +50,11 @@ function Header() {
       </motion.div>
       <div onClick={() => setMenu(false)} className={"transition-all max-sm:absolute max-sm:w-64 max-sm:bg-zinc-800 max-sm:mt-14 max-sm:h-[100vh] max-[400px]:w-full " + (menu ? "max-sm:left-0" : "max-sm:-left-64 max-[400px]:-left-full ")}>
         <nav className="flex max-sm:py-1 sm:px-1 max-sm:flex-col">
-          <NavLink onClick={scrollToContent} to="/" activeclassname="active" className="header-button">{menuItems[language][0]}</NavLink>
+          <NavLink onClick={scrollToTop} to="/" activeclassname="active" className="header-button">{menuItems[language][0]}</NavLink>
           <NavLink onClick={scrollToContent} to="resume" activeclassname="active" className="header-button">{menuItems[language][1]}</NavLink>
           <NavLink onClick={scrollToContent} to="projects" activeclassname="active" className="header-button">{menuItems[language][2]}</NavLink>
           <NavLink onClick={scrollToContent} to="publications" activeclassname="active" className="header-button">{menuItems[language][3]}</NavLink>
-          <NavLink onClick={scrollToContent} to="contact-me" activeclassname="active" className="header-button">{menuItems[language][4]}</NavLink>
+          <NavLink onClick={scrollToTop} to="contact-me" activeclassname="active" className="header-button">{menuItems[language][4]}</NavLink>
         </nav>
       </div>
       <div className="flex py-1">

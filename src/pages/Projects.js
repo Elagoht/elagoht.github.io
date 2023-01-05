@@ -2,14 +2,12 @@ import Section from "../components/Skeleton/Section"
 import Repo from "../components/Repo"
 import useSWR from "swr"
 import { motion } from "framer-motion"
-import useScrollToContent from "../hooks/scrollToContent"
 import { errors, h2s, h4s, loading, mainTitle } from "../translations/Projects"
 import { LanguageContext } from "../contexts/LanguageContext"
 import { ThemeContext } from "../contexts/ThemeContext"
 import { useContext } from "react"
 
 function Projects() {
-  useScrollToContent()
   const fetcher = (...args) => fetch(...args).then((res) => res.json())
   const { data, error } = useSWR(
     "https://api.github.com/users/Elagoht/repos?sort=pushed&per_page=100",

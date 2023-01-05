@@ -29,14 +29,14 @@ function Gallery({ medias, className }) {
       {medias.map((media, i) => (
         media.type === "img"
           ? <motion.div
-            initial={{ display: visibles[i] ? "unset" : "none", opacity: visibles[i] ? 1 : 0, scale: visibles[i] ? "100%" : "50%" }}
-            animate={{ display: visibles[i] ? "unset" : "none", opacity: visibles[i] ? 1 : 0, scale: visibles[i] ? "100%" : "50%", transition: { duration: .5 } }}
+            initial={{ display: visibles[i] ? "unset" : "none", opacity: visibles[i] ? 1 : 0 }}
+            animate={{ display: visibles[i] ? "unset" : "none", opacity: visibles[i] ? 1 : 0, transition: { duration: .5 } }}
             key={i}>
             <img src={media.src} alt={media.alt} />
           </motion.div>
           : <motion.div
-            initial={{ display: visibles[i] ? "unset" : "none", opacity: visibles[i] ? 1 : 0, scale: visibles[i] ? "100%" : "50%" }}
-            animate={{ display: visibles[i] ? "unset" : "none", opacity: visibles[i] ? 1 : 0, scale: visibles[i] ? "100%" : "50%", transition: { duration: .5 } }}
+            initial={{ display: visibles[i] ? "unset" : "none", opacity: visibles[i] ? 1 : 0 }}
+            animate={{ display: visibles[i] ? "unset" : "none", opacity: visibles[i] ? 1 : 0, transition: { duration: .5 } }}
             key={i}>
             <iframe src={media.src} title={media.title} allowFullScreen>Your browser does not support this media</iframe>
           </motion.div>

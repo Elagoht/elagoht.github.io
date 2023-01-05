@@ -1,11 +1,16 @@
 import Section from "../components/Skeleton/Section";
 import { LanguageContext } from "../contexts/LanguageContext"
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { directs, h2s, mainTitle, others } from "../translations/Contact";
 
 function ContactMe() {
 
   const { language } = useContext(LanguageContext)
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }, [])
+
 
   return <Section>
     {mainTitle[language]}
