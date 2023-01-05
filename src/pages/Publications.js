@@ -157,6 +157,24 @@ function Publications() {
       iframe: "PLGIvph8XiC3Qze9JPrU4JrwKqBd7E1bah"
     }, {
       title: {
+        tr: "Podcast Serisi",
+        en: "Podcast Series"
+      },
+      badges: {
+        tr: [
+          "badge/Dub-Türkçe-db0a16?logo=homeassistantcommunitystore",
+        ],
+        en: [
+          "badge/Dub-Turkish-db0a16?logo=homeassistantcommunitystore",
+        ],
+      },
+      desc: {
+        tr: "Linux, açık kaynak projeler ve teknoloji hakkında konuştuğum podcast serisi.",
+        en: "The podcast series I talked about Linux, open source projects and technology."
+      },
+      iframe: "PLGIvph8XiC3QxsKA60YQKjPPsZhlSdGKd"
+    }, {
+      title: {
         tr: "Genel Kullanıcı Kitlesi",
         en: "General User Audience",
       },
