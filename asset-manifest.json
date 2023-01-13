@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a59fc7d4.css",
-    "main.js": "/static/js/main.8bd231ee.js",
+    "main.css": "/static/css/main.134238d1.css",
+    "main.js": "/static/js/main.4c3db3f5.js",
     "static/media/python.png": "/static/media/python.683a7215b9d795cdc449.png",
     "static/media/webusability.png": "/static/media/webusability.51a7db06130afdbda1e7.png",
     "static/media/audacity.png": "/static/media/audacity.e241279e4e3d71d33bd5.png",
@@ -52,11 +52,11 @@
     "static/media/label.svg": "/static/media/label.06630439edc0c44be370.svg",
     "static/media/instructor.svg": "/static/media/instructor.4d069bbc88767bf45f80.svg",
     "static/media/education.svg": "/static/media/education.2dc6156473d1dd1f71ae.svg",
-    "main.a59fc7d4.css.map": "/static/css/main.a59fc7d4.css.map",
-    "main.8bd231ee.js.map": "/static/js/main.8bd231ee.js.map"
+    "main.134238d1.css.map": "/static/css/main.134238d1.css.map",
+    "main.4c3db3f5.js.map": "/static/js/main.4c3db3f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a59fc7d4.css",
-    "static/js/main.8bd231ee.js"
+    "static/css/main.134238d1.css",
+    "static/js/main.4c3db3f5.js"
   ]
 }
