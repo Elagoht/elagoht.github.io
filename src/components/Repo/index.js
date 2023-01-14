@@ -5,11 +5,16 @@ import License from "./License"
 import Star from "../Icons/Star.js"
 import Fork from "../Icons/Fork.js"
 import Git from "../Icons/Git"
+import { visit } from "../../translations/Projects"
+import { LanguageContext } from "../../contexts/LanguageContext"
+import { useContext } from "react"
 
 function Repo({ data: repo }) {
   Languages.defaultProps = {
     lang: "Markdown",
   }
+
+  const { language } = useContext(LanguageContext)
 
   if (!repo.archived) {
     return (
@@ -31,13 +36,13 @@ function Repo({ data: repo }) {
         {repo.description !== null && (
           <div className="h-full">{repo.description}</div>
         )}
-        <div className="mt-auto flex justify-end gap-4 flex-shrink-0">
+        <div className="mt-auto flex justify-end items-center gap-4 flex-shrink-0">
           {repo.homepage !== "" && repo.homepage !== null && (
             <a
               href={repo.homepage}
               className="mr-auto rounded-lg px-2 py-1 border border-orange-500 !text-orange-500 hover:bg-orange-500 hover:!text-orange-300"
             >
-              Visit site
+              {visit[language]}
             </a>
           )}
           {repo.license !== null && <License lic={repo.license.name} />}
