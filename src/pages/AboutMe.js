@@ -24,7 +24,9 @@ function AboutMe() {
     ["2022", "React-41BADB", "react"],
     ["2022", "Tailwind_CSS-06B6D4", "tailwindcss"],
     ["2022", "Framer_Motion-0055FF", "framer"],
-    ["2022", "Bootstrap-7952B3", "bootstrap"]
+    ["2022", "Bootstrap-7952B3", "bootstrap"],
+    ["2023", "C%23-239120", "csharp"],
+    ["2023", "MS_SQL_Server-CC2927", "microsoftsqlserver"]
   ]
 
   useEffect(() => {
